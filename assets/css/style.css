@@ -1,0 +1,106 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Roboto:wght@300&display=swap');
+
+.imgprato
+{
+    width: 50%;
+    height: 100%;
+    background-image: url("../Imagens/imagem\ prato\ 3.jpeg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    position: relative;
+ 
+    background-position-y: center;
+    
+    
+    
+}
+body
+{
+    background-image: url("../Imagens/pessoa\ cozinhando.jpg");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 50%;
+    background-position-y: center;
+    filter: saturate(115%);
+
+    overflow-x: hidden;
+
+   
+}
+#confimagem
+{
+    background-color: #DBA838;
+	opacity: 0.1;
+	width: 50vw;
+	height: 100vh;
+	margin-left: 50vw;
+	position: absolute;
+	z-index: 10;
+}
+
+.quadradoinicial
+{
+    width: 65%;
+    height: 50%;
+    background-color: white;
+    position: relative;
+    left:69%;
+    top: 20%;
+    opacity:65% ;
+   
+  
+}
+.textodentroquadrado
+{
+    font-size: 35px;
+    text-align: center;
+    text-transform:uppercase ;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 33%;
+    font-weight: bold ;
+    opacity: 150%;
+ 
+}
+
+
+
+.menu ul
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    list-style: none;
+   
+    z-index: 15;
+  
+}
+
+.menu ul a
+{
+    padding: 90px;
+    text-decoration: none;
+    color:black;
+    font-size: 45px;
+    position: relative;
+    left: 120%;
+    font-weight: bold;
+    
+  
+  
+}
+
+#paginainicial
+{
+   width: 50%;
+   position: relative;
+   left: 50%;
+}
