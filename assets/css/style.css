@@ -14,7 +14,7 @@
     background-size: 50%;
     background-position-y: center;
     filter: saturate(115%);
-
+     
     overflow-x: hidden;
 
    
@@ -22,6 +22,10 @@
 .bodytemas
 {
     overflow-x: hidden;
+    background-image: url("../Imagens/educacaoalimetarinfantil.png");
+    background-size: cover;
+   
+
 }
 
 /*configuração de imagens*/
@@ -99,27 +103,32 @@
 /*configurações dos posts*/
 .posts
 {
+    width: 100vw;
+ 
+    max-height:auto ;
     position:relative;
-    top: 20%;
-    left: 5%;
+    top: 15%;
+    left:0.5%;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
     align-items: center;
     gap: 10px; /*espaçamento entra linhas e colunas */
+
+   
    
    
 }
 .post
 {
-  
-    margin: 5px;
-    max-width: 20rem;
+    max-width: 19rem;
     height: 15rem;
-    background-color: rgb(0, 0, 0,0.1);
+   
     overflow: hidden;
     border: 2px solid #DBA838;
     background-size: cover;
     background-position-x: 45%;
+    
+    
 
 }
 
@@ -192,6 +201,24 @@
    position: relative;
    
  
+}
+
+/*rodape*/
+.rodape
+{
+    position: relative;
+    padding: 1%;
+    top: 100%;
+    width: 100vw;
+    height: auto;
+    right: 3%;
+    background-color: #2E8B57;
+}
+.textorodape
+{
+    color: white;
+    text-align: center;
+
 }
 
 /*sobre*/
