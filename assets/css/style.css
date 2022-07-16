@@ -2,26 +2,11 @@
    margin: 0;
    padding: 0;
 }
-
-
-
+/*importações de fontes*/
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Roboto:wght@300&display=swap');
 
-.imgprato
-{
-    width: 50%;
-    height: 100%;
-    background-image: url("../Imagens/imagem\ prato\ 3.jpeg");
-    background-repeat: no-repeat;
-    background-size:100%;
-    position: relative;
- 
-    background-position-y: center;
-    
-    
-    
-}
-body
+/*configuração de body*/
+.bodyinicial
 {
     background-image: url("../Imagens/pessoa\ cozinhando.jpg");
     background-repeat: no-repeat;
@@ -34,6 +19,24 @@ body
 
    
 }
+.bodytemas
+{
+    overflow-x: hidden;
+}
+
+/*configuração de imagens*/
+.imgprato
+{
+    width: 50%;
+    height: 100%;
+    background-image: url("../Imagens/imagem\ prato\ 3.jpeg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    position: relative;
+ 
+    background-position-y: center;
+    
+}
 #confimagem
 {
     background-color: #DBA838;
@@ -44,7 +47,6 @@ body
 	position: absolute;
 	z-index: 10;
 }
-
 .quadradoinicial
 {
     width: 65%;
@@ -57,6 +59,7 @@ body
    
   
 }
+/*textos*/
 .textodentroquadrado
 {
     font-size: 35px;
@@ -70,8 +73,60 @@ body
  
 }
 
+.faixa
+{
+    width: 100vw;
+    height: 8%;
+    background-color: #2E8B57;
+    position: relative;
+    top: 10%;
+   display: block;
+   overflow: hidden;
+}
+
+.titulotemas
+{
+    position: relative;
+    top: 10%;
+    left: 46%;
+    text-transform: uppercase;
+    color: white;
+}
 
 
+
+
+/*configurações dos posts*/
+.posts
+{
+    position:relative;
+    top: 20%;
+    left: 5%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap: 10px; /*espaçamento entra linhas e colunas */
+   
+   
+}
+.post
+{
+  
+    margin: 5px;
+    max-width: 20rem;
+    height: 15rem;
+    background-color: rgb(0, 0, 0,0.1);
+    overflow: hidden;
+    border: 2px solid #DBA838;
+    background-size: cover;
+    background-position-x: 45%;
+
+}
+
+
+
+
+/*menus*/
 .menu ul
 {
     position: relative;
@@ -97,10 +152,51 @@ body
   
   
 }
+.menuoutros ul
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    list-style: none;
+   
+  
+}
 
+.menuoutros ul a
+{
+    padding: 100px;
+    text-decoration: none;
+    color:black;
+    font-size: 30px;
+    position: relative;
+    font-weight: bold;
+    top: 30%;
+    color:#2E8B57 ;
+    
+  
+  
+}
+
+
+/*icones*/
 #paginainicial
 {
    width: 50%;
    position: relative;
    left: 50%;
 }
+#paginainicialoutros
+{
+   width: 20%;
+   position: relative;
+   
+ 
+}
+
+/*sobre*/
+
+
+/*dicas*/
+
+/*videos*/
