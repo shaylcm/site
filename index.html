@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script data-search-pseudo-elements src="https://kit.fontawesome.com/f737751420.js"
+		crossorigin="anonymous"></script>
+
     <title>Nome do site</title>
 </head>
 <body class="bodyinicial">
@@ -21,28 +24,30 @@
         new window.VLibras.Widget('https://vlibras.gov.br/app');
       </script>
 <!------------------------------------------------ ---------------->
-
-<!-----------------ATIVANDO A CAMADA PARA ESTABELECER FILTRO NA IMAGEM ---------------->
-   <div id="confimagem"></div>
-   <!-----------------DIV PARA IMAGEM DE PRATO ---------------->
-    <div class="imgprato"> 
+  
+ 
+   
     <!-----------------NAVEGAÇÃO DE MENU ---------------->
-        <nav class="menu">
-            <ul>
+    
+        <nav id="menu">
+        <div  id="contornomenu">
+            <p id="textmenu" onclick="menu_mobile()"">Menu <i class="fa-solid fa-bars" id="botaomenu" ></i></p>
+        </div>
+            <ul id="menus">
+                <li><a href="index.html"onclick="menu_mobile_fechar()" >Home</a></li>
                 <li><a href="temas.html" >Temas</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="index.html" ><img src="pagina-inicial.png" alt="icone casa" id="paginainicial"></a></li>
                 <li><a href="dicas.html">Dicas</a></li>
                 <li><a href="videos.html">Vídeos</a></li>
+                
             </ul>
         </nav>
-        
-    <!-----------------QUADRADO QUE ALGO ESCRITO NO MEIO DA TELA  ---------------->
-        <div class="quadradoinicial">
-            <div class="textodentroquadrado">educação alimentar <br>e<br> nutricional</div>
-        </div>
-        
-    </div>
 
+   
+     <!-----------------DIV PARA COLOCAR IMG---------------->
+     <div class="intropI">
+        <div class="title"><h1 class="classtitle">Educação alimentar <br>e<br> nutricional</h1></div>
+     </div>
+     <script type="text/javascript" src="./assets/js/index.js" >   </script>
 </body> <!-----------------FINAL DO CORPO DA---------------->
 </html>

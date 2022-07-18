@@ -4,16 +4,12 @@
 }
 /*importações de fontes*/
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Roboto:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 /*configuração de body*/
 .bodyinicial
 {
-    background-image: url("../Imagens/pessoa\ cozinhando.jpg");
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-size: 50%;
-    background-position-y: center;
-    filter: saturate(115%);
+
+    
      
     overflow-x: hidden;
 
@@ -22,60 +18,88 @@
 .bodytemas
 {
     overflow-x: hidden;
-    background-image: url("../Imagens/educacaoalimetarinfantil.png");
-    background-size: cover;
-   
-
-}
-
-/*configuração de imagens*/
-.imgprato
-{
-    width: 50%;
-    height: 100%;
-    background-image: url("../Imagens/imagem\ prato\ 3.jpeg");
-    background-repeat: no-repeat;
-    background-size:100%;
-    position: relative;
- 
-    background-position-y: center;
     
-}
-#confimagem
-{
-    background-color: #DBA838;
-	opacity: 0.1;
-	width: 50vw;
-	height: 100vh;
-	margin-left: 50vw;
-	position: absolute;
-	z-index: 10;
-}
-.quadradoinicial
-{
-    width: 65%;
-    height: 50%;
-    background-color: white;
-    position: relative;
-    left:69%;
-    top: 20%;
-    opacity:65% ;
    
-  
+
 }
-/*textos*/
-.textodentroquadrado
+
+.introPI
+{
+    width: 100%;
+    height: 100%;
+    background-image: url("../Imagens/Bem\ vindos!.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+@keyframes  example
+{
+    from{ background-size: 10%;}
+    to { width: 100%;height: 50%; position: relative; top:10% ;bottom:10%;}
+
+}
+
+.title 
+{
+
+    width:55% ;
+    height: 30%;
+    background-color:  #2E8B57;
+    opacity: 90%;
+    position: relative;
+    top: 30%;
+
+    color: white;
+  
+   
+    
+    
+
+}
+.classtitle
+{
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 30%;
+    text-transform: uppercase;
+    font-family:  'Roboto', sans-serif;
+     /*parte referente a animação do perfil*/
+     animation-name:example;
+     animation-duration: 3.5s;
+     animation-iteration-count: infinite;
+
+}
+
+#textmenu
+{
+    font-size: 30px;
+    position: relative;
+    top:5% ;
+    left: 20%;
+}
+
+#contornomenu
+{
+    cursor: pointer;
+    width: 15%;
+    height: 40%;
+    position: relative;
+    top: 35%;
+    border: 2px solid #2E8B57;
+    left: 10%;
+   
+}
+#botaomenu
 {
     font-size: 35px;
-    text-align: center;
-    text-transform:uppercase ;
-    font-family: 'Roboto', sans-serif;
+    color:#2E8B57;
     position: relative;
-    top: 33%;
-    font-weight: bold ;
-    opacity: 150%;
- 
+    top: 22%;
+    left: 2%;
+    
 }
+
 
 .faixa
 {
@@ -136,27 +160,44 @@
 
 
 /*menus*/
-.menu ul
+
+#menu
 {
+    width: 100%;
+    height: 17%;
+    background-color: white;
+    border-bottom:2px solid  #2E8B57;
+}
+#menu ul
+{
+    width: 15.2%;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center ;
     list-style: none;
-   
+    display: none;
     z-index: 15;
+    top: 30%;
+    left: 10%;
+    background-color: #2E8B57;
+    text-align: center;
+
   
 }
 
-.menu ul a
+#menu ul a
 {
-    padding: 100px;
+    padding: 10px;
     text-decoration: none;
     color:black;
-    font-size: 45px;
+    font-size: 25px;
     position: relative;
-    left: 120%;
-    font-weight: bold;
+    color: white;
+ 
+    
+   
+    
     
   
   
