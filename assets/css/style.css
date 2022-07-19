@@ -44,7 +44,7 @@
 
     width:43% ;
     height: 20%;
-    background-color:  #2E8B57;
+    background-color:  #75be4b;
     opacity: 90%;
     position: relative;
     top: 40%;
@@ -188,7 +188,7 @@
     list-style: none;
     display: none;
     z-index: 15;
-    top: 25%;
+    bottom: 90;
     left: 10%;
     background-color: #2E8B57;
     text-align: center;
@@ -210,7 +210,7 @@
     margin-top: 15px;
     width: 100%;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 24px;
     position: relative;
     top: 35px;
     
@@ -280,6 +280,26 @@
     color: white;
     text-align: center;
 
+}
+
+/*logos*/
+.logonutricao
+{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    left: 80%;
+    bottom: 50px;
+    
+}
+.logoif
+{
+    width: 100px;
+    height: 80px;
+    position: relative;
+    left: 80%;
+    bottom: 65px;
+  
 }
 
 /*sobre*/
