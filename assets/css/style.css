@@ -27,7 +27,7 @@
 {
     width: 100%;
     height: 100%;
-    background-image: url("../Imagens/Bem\ vindos!.png");
+    background-image: url("../Imagens/1.png");
      background-repeat: no-repeat;
      background-size: cover;
 }
@@ -42,13 +42,12 @@
 .title 
 {
 
-    width:55% ;
-    height: 30%;
+    width:43% ;
+    height: 20%;
     background-color:  #2E8B57;
     opacity: 90%;
     position: relative;
-    top: 30%;
-
+    top: 40%;
     color: white;
   
    
@@ -58,47 +57,15 @@
 }
 .classtitle
 {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     position: relative;
-    top: 30%;
-    text-transform: uppercase;
+    top: 40%;
     font-family:  'Roboto', sans-serif;
-     /*parte referente a animação do perfil*/
-     animation-name:example;
-     animation-duration: 3.5s;
-     animation-iteration-count: infinite;
-
-}
-
-#textmenu
-{
-    font-size: 30px;
-    position: relative;
-    top:5% ;
-    left: 20%;
-}
-
-#contornomenu
-{
-    cursor: pointer;
-    width: 15%;
-    height: 40%;
-    position: relative;
-    top: 35%;
-    border: 2px solid #2E8B57;
-    left: 10%;
-   
-}
-#botaomenu
-{
-    font-size: 35px;
-    color:#2E8B57;
-    position: relative;
-    top: 22%;
-    left: 2%;
     
 }
+
+
 
 
 .faixa
@@ -161,16 +128,59 @@
 
 /*menus*/
 
+#textmenu
+{
+    font-size: 30px;
+    position: relative;
+    top:10px ;
+    left: 20%;
+    color: #2E8B57;
+}
+
+#contornomenu
+{
+    cursor: pointer;
+    width: 15%;
+    height: 40%;
+    position: relative;
+    top: 35%;
+    border: 2px solid #2E8B57;
+    left: 10%;
+   
+}
+#botaomenu
+{
+    font-size: 30px;
+    color:tomato;
+    position: relative;
+    bottom: 30px;
+    left: 50% ;
+    display: block;
+    
+}
+
+#botaomenux
+{
+    font-size: 30px;
+    color:tomato;
+    position: relative;
+    left: 100px;
+    bottom: 30px;
+    display: none;
+    
+}
+
 #menu
 {
     width: 100%;
-    height: 17%;
+    height: 20%;
     background-color: white;
     border-bottom:2px solid  #2E8B57;
 }
 #menu ul
 {
     width: 15.2%;
+    height: 180%;
     position: relative;
     display: flex;
     align-items: center;
@@ -178,22 +188,32 @@
     list-style: none;
     display: none;
     z-index: 15;
-    top: 30%;
+    top: 25%;
     left: 10%;
     background-color: #2E8B57;
     text-align: center;
+    opacity: 90%;
+    
 
   
 }
 
+#menus a:hover
+{
+    background-color:#FF4500 ;
+}
+
 #menu ul a
 {
-    padding: 10px;
+    color: white;
+    display:block;
+    margin-top: 15px;
+    width: 100%;
     text-decoration: none;
-    color:black;
     font-size: 25px;
     position: relative;
-    color: white;
+    top: 35px;
+    
  
     
    
