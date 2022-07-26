@@ -8,7 +8,8 @@
 html
 {
     background-color: #f6f4ef;
-    overflow-x: hidden;
+    
+    
 }
 /*importações de fontes*/
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Roboto:wght@300&display=swap');
@@ -20,7 +21,7 @@ html
 {
 
     
-     
+   
     overflow-x: hidden !important;
 
    
@@ -453,6 +454,7 @@ html
         position: relative;
         top: 40%;
         width: 50%;
+        height: 250px;
         left: 90px;
     }
    
