@@ -414,11 +414,13 @@ html
     .body
     {
         overflow-x: hidden;
+
     }
     .introPI
     {
        overflow-x: hidden; 
        background-image: url("../Imagens/pessoa\ cozinhando.jpg");
+       width: 100vw;
        
     }
    
@@ -434,10 +436,10 @@ html
     {
         position: relative;
         top: 150px;
-        width: 100%;
+        width: 100vw;
         height: 50%;
         background-color: #f6f4ef;
-        opacity: 80%;
+        opacity: 70%;
     }
    
     #menu ul
@@ -448,6 +450,33 @@ html
         left: 90px;
     }
    
-    
+
+        .imagemebook
+    {
+        width: 15rem;
+        height: 17rem;
+        
+        background-color:gray;
+        position: relative;
+        left: 10%;
+        bottom: 15%;
+        
+    }
+
+    .botaoebook
+    {
+        width: 16rem;
+        height: 4rem;
+        position: relative;
+        left: 10%;
+        bottom: 10%;
+        border-radius: 50px;
+        background-color: #50d93a;
+        border: none;
+        font-size: 30px;
+        color: white;
+    }
+
+        
 
 }
