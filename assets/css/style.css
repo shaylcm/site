@@ -312,7 +312,7 @@ html
 {
     font-size: 50px;
     position: relative;
-    top: 100px;
+    top: 30px;
     text-align: center;
     font-weight: normal;
     font-family: 'Montserrat', sans-serif;
@@ -322,7 +322,7 @@ html
 .textosobre
 
 {
-    font-size: 20px;
+    font-size: 25px;
     margin: 150px;
 }
 
@@ -388,8 +388,20 @@ html
 }
 
 
-@media (max-device-width:700px) and (max-device-height:640px)
+
+
+/*-------------------------RESPONSIVIDADE------------------------*/
+
+
+@media (max-device-width:500px) and (max-device-height:1024px)
+
+
 {
+
+    html 
+    {
+        overflow-x: hidden;
+    }
     .logoif
     {
         display: none;
@@ -457,39 +469,108 @@ html
         height: 250px;
         left: 90px;
     }
-   
+    .ebook 
+    {
+        
+        width: 100vw;
+        max-height: auto;
+        position: relative;
+       
+        background-color: #f6f4ef;
+    }
 
         .imagemebook
     {
-        width: 10rem;
-        height: 15rem;
-        
+        width: 8rem;
+        height: 10rem;
         background-color:gray;
         position: relative;
-        left: 10%;
-        bottom: 15%;
+        top: 50%;
+        left: 35%;
+       
         
+       
+        
+    }
+    .textoebook
+
+    {
+        width: 100vw;
+        font-size:15px;
+    
+        position: relative;
+        top: 200px;
+        text-align: justify;
+        margin: 0px;
     }
 
     .botaoebook
     {
         width: 13rem;
-        height: 4rem;
+        height: 2rem;
         position: relative;
-        left: 10%;
-        bottom: 10%;
+        left:26%;
+        top: 390px;
+        text-align: center;
         border-radius: 50px;
         background-color: #50d93a;
         border: none;
-        font-size: 30px;
+        font-size: 15px;
         color: white;
     }
 
+    .sobre 
+    {
         
+        width: 100vw;
+        max-height: auto;
+        position: relative;
+        top: 200px;
+        background-color: #f6f4ef;
+        border-bottom:2px solid  #50d93a ;
+    }
+      
+
+        .sobretitulo
+        {
+            font-size: 20px;
+            position: relative;
+            top: 50px;
+            text-align: center;
+            font-weight: normal;
+            font-family: 'Montserrat', sans-serif;
+            color:#599e46;
+            display: block;
+        }
+
+        .textosobre
+
+        {
+            font-size: 16px;
+            text-align:justify ;
+            position: relative;
+            right: 10px !important;
+            top: 70px;
+            margin: 20px;
+            
+        }
+
+        #rodape 
+        {
+            position: relative;
+            top: 80%;
+        }
+
+    
 
 }
-@media (max-device-width:1024px) and (max-device-height:1024px)
+
+@media (max-device-width:900px) and (max-device-height:1024px) and (min-device-width:500px)
 {
+    html 
+    {
+        overflow-x: hidden;
+    }
     .logoif
     {
         display: none;
@@ -497,6 +578,175 @@ html
     .logonutricao
     {
         display: none;
+    }
+
+    #botaomenu
+    {
+        position: relative;
+        left: 90px;
+        display: block;
+       
+    }
+    
+    #textmenu
+    {
+        position: relative;
+        left: -10px;
+       
+     
+    }
+    .bodyinicial
+    {
+        overflow-x:hidden ;
+    
+   
+
+
+    }
+    .introPI
+    {
+       overflow-x: hidden; 
+       background-image: url("../Imagens/pessoa\ cozinhando.jpg");
+       width: 100vw;
+       
+       
+    }
+   
+    .classtitle
+    {
+        font-size: 35px;
+        position: relative;
+        left: 4px;
+        color: #50d93a;
+       
+    }
+    .title
+    {
+        position: relative;
+        top: 150px;
+        width: 100vw;
+        height: 50%;
+        background-color: #f6f4ef;
+        opacity: 70%;
+    }
+   
+    #menu ul
+    {
+        position: relative;
+        top: 40%;
+        width: 50%;
+        height: 250px;
+        left: 90px;
+    }
+    .ebook 
+    {
+        
+        width: 100vw;
+        max-height: auto;
+        position: relative;
+       
+        background-color: #f6f4ef;
+    }
+
+        .imagemebook
+    {
+        width: 8rem;
+        height: 10rem;
+        background-color:gray;
+        position: relative;
+        top: 50%;
+        left: 40%;
+        
+    }
+    .textoebook
+
+    {
+        width: 100vw;
+        font-size:15px;
+    
+        position: relative;
+        top: 200px;
+        text-align: justify;
+        margin: 0px;
+    }
+
+    .botaoebook
+    {
+        width: 13rem;
+        height: 2rem;
+        position: relative;
+        left:35%;
+        top: 390px;
+        text-align: center;
+        border-radius: 50px;
+        background-color: #50d93a;
+        border: none;
+        font-size: 15px;
+        color: white;
+    }
+        .sobre 
+    {
+        
+        width: 100vw;
+        max-height: auto;
+        position: relative;
+        top: 200px;
+        background-color: #f6f4ef;
+        border-bottom:2px solid  #50d93a ;
+    }
+      
+
+        .sobretitulo
+        {
+            font-size: 20px;
+            position: relative;
+            top: 50px;
+            text-align: center;
+            font-weight: normal;
+            font-family: 'Montserrat', sans-serif;
+            color:#599e46;
+            display: block;
+        }
+
+        .textosobre
+
+        {
+            font-size: 16px;
+            text-align:justify ;
+            position: relative;
+            right: 10px !important;
+            top: 70px;
+            margin: 20px;
+            
+        }
+
+        #rodape 
+        {
+            position: relative;
+            top: 80%;
+        }
+
+      
+        
+        
+
+}
+@media (max-device-width:1100px) and (max-device-height:1080px) and (min-device-width:901px)
+{
+    html  
+    {
+        overflow-x: hidden;
+    }
+    .logoif
+    {
+        position: relative;
+        right: 10%;
+
+    }
+    .logonutricao
+    {
+       position: relative;
+       left:85%;
     }
 
     #botaomenu
@@ -556,6 +806,17 @@ html
         width: 50%;
         left: 90px;
     }
+
+    .ebook 
+{
+    
+    width: 100vw;
+    max-height: auto;
+    position: relative;
+    top: 200px;
+    background-color: #f6f4ef;
+}
+
    
 
         .imagemebook
@@ -565,17 +826,17 @@ html
         
         background-color:gray;
         position: relative;
-        left: 10%;
+        left: 70%;
         bottom: 15%;
         
     }
 
     .botaoebook
     {
-        width: 13rem;
+        width: 15rem;
         height: 4rem;
         position: relative;
-        left: 10%;
+        left: 66%;
         bottom: 10%;
         border-radius: 50px;
         background-color: #50d93a;
@@ -583,6 +844,40 @@ html
         font-size: 30px;
         color: white;
     }
+    .sobre 
+    {
+        
+        width: 100vw;
+        height: 100%;
+        position: relative;
+        top: 200px;
+        background-color: #f6f4ef;
+        border-bottom:2px solid  #50d93a ;
+    }
+
+        .sobretitulo
+        {
+            font-size: 30px;
+            position: relative;
+            top: 100px;
+            text-align: center;
+            font-weight: normal;
+            font-family: 'Montserrat', sans-serif;
+            color:#599e46;
+        }
+
+        .textosobre
+
+        {
+            font-size: 19px;
+            text-align:justify ;
+            position: relative;
+            top: 200px;
+            right: 10px;
+            margin: 20px;
+            
+        }
+
 
         
 
