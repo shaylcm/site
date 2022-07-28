@@ -529,13 +529,13 @@ html
         border: none;
         font-size: 15px;
         color: white;
-    .}
+    }
 
     .sobre 
     {
         
         width: 100vw;
-        max-height: auto;
+        max-height: 600px;
         position: relative;
         top: 200px;
         background-color: #f6f4ef;
