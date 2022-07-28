@@ -498,7 +498,7 @@ html
         background-color:gray;
         position: relative;
         top: 30%;
-        left: 37%;
+        left: 30%;
        
         
        
@@ -521,7 +521,7 @@ html
         width: 13rem;
         height: 2rem;
         position: relative;
-        left:27%;
+        left:19%;
         top: 37%;
         text-align: center;
         border-radius: 50px;
@@ -545,7 +545,7 @@ html
 
         .sobretitulo
         {
-            font-size: 20px;
+            font-size: 35px;
             position: relative;
             top: 50px;
             text-align: center;
@@ -570,7 +570,8 @@ html
         #rodape 
         {
             position: relative;
-            top: 90%;
+            top: 100%;
+            max-height: auto;
         }
 
     
