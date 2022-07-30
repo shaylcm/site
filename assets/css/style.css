@@ -391,7 +391,7 @@ html
 
 
 /*-------------------------RESPONSIVIDADE------------------------*/
-@media (max-device-width:349px) and (max-device-height:1024px)
+@media (max-device-width:380px) and (max-device-height:1024px)
 
 
 {
@@ -613,7 +613,7 @@ html
 }
 
 
-@media (max-device-width:500px) and (max-device-height:1024px) and (min-device-width:350px)
+@media (max-device-width:500px) and (max-device-height:1024px) and (min-device-width:381px)
 
 
 {
