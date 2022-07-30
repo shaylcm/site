@@ -391,7 +391,7 @@ html
 
 
 /*-------------------------RESPONSIVIDADE------------------------*/
-@media (max-device-width:341px) and (max-device-height:1024px)
+@media (max-device-width:349px) and (max-device-height:1024px)
 
 
 {
@@ -613,7 +613,7 @@ html
 }
 
 
-@media (max-device-width:500px) and (max-device-height:1024px) and (min-device-width:342px)
+@media (max-device-width:500px) and (max-device-height:1024px) and (min-device-width:350px)
 
 
 {
@@ -1185,7 +1185,7 @@ html
         {
             position: relative;
             top: 80px;
-            left: 50%;
+            left: 40%;
             font-size: 35px;
             color:#599e46;
             font-family: 'Montserrat', sans-serif;
