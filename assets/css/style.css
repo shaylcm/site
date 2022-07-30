@@ -391,9 +391,7 @@ html
 
 
 /*-------------------------RESPONSIVIDADE------------------------*/
-
-
-@media (max-device-width:500px) and (max-device-height:1024px)
+@media (max-device-width:341px) and (max-device-height:1024px)
 
 
 {
@@ -591,19 +589,21 @@ html
             max-height:auto ;
             position:relative;
             top: 200px;
-            
             display: grid;
-            grid-template-columns: repeat(auto-fill,minmax(320px,1fr));
-            align-items: center;
-            gap: 10px; /*espaçamento entra linhas e colunas */
+            grid-template-columns: repeat(auto-fill,minmax(290px,1fr));
+            gap: 10px; /*espaçamento entre linhas e colunas */
             background-color: #f6f4ef;
             border-bottom:2px solid #50d93a;
+           
         
         }
         .post
         {
+            
             position:relative;
-            left: 20%;
+           
+           
+           
         }
 
 
@@ -612,7 +612,231 @@ html
 
 }
 
-@media (max-device-width:900px) and (max-device-height:1024px) and (min-device-width:500px)
+
+@media (max-device-width:500px) and (max-device-height:1024px) and (min-device-width:342px)
+
+
+{
+
+    html 
+    {
+        overflow-x: hidden;
+    }
+    .logoif
+    {
+        display: none;
+    }
+    .logonutricao
+    {
+        display: none;
+    }
+
+    #botaomenu
+    {
+        position: relative;
+        left: 90px;
+        display: block;
+       
+    }
+    
+    #textmenu
+    {
+        position: relative;
+        left: -10px;
+       
+     
+    }
+    .bodyinicial
+    {
+        overflow-x:hidden ;
+    
+   
+
+
+    }
+    .introPI
+    {
+       overflow-x: hidden; 
+       background-image: url("../Imagens/pessoa\ cozinhando.jpg");
+       width: 100vw;
+       
+       
+    }
+   
+    .classtitle
+    {
+        font-size: 35px;
+        position: relative;
+        left: 4px;
+        color: #50d93a;
+       
+    }
+    .title
+    {
+        position: relative;
+        top: 150px;
+        width: 100vw;
+        height: 50%;
+        background-color: #f6f4ef;
+        opacity: 70%;
+    }
+    
+   
+    #menu ul
+    {
+        position: relative;
+        top: 40%;
+        width: 50%;
+        height: 250px;
+        left: 28%;
+    }
+
+    .tituloebook
+    {
+        font-size: 35px;
+        position: relative;
+        top: 100px;
+        left: 3.5%;
+        text-align: center;
+        font-weight: normal;
+        font-family: 'Montserrat', sans-serif;
+        color:#599e46;
+    }
+    .ebook 
+    {
+        
+        width: 100vw;
+        max-height: auto;
+        position: relative;
+       
+        background-color: #f6f4ef;
+    }
+
+        .imagemebook
+    {
+        width: 8rem;
+        height: 10rem;
+        background-color:gray;
+         position: relative;
+        top: 30%;
+        left:34.5%;
+       
+        
+       
+        
+    }
+    .textoebook
+
+    {
+        width: 100vw;
+        font-size:15px;
+    
+        position: relative;
+        top: 23%;
+        text-align: justify;
+        margin: 0px;
+    }
+
+    .botaoebook
+    {
+        width: 13rem;
+        height: 2rem;
+        position: relative;
+        left:25%;
+        top: 37%;
+        text-align: center;
+        border-radius: 50px;
+        background-color: #50d93a;
+        border: none;
+        font-size: 15px;
+        color: white;
+    }
+
+    .sobre 
+    {
+        
+        width: 100vw;
+        height: 600.5px !important;
+        position: relative;
+        top: 200px;
+        background-color: #f6f4ef;
+        border-bottom:2px solid  #50d93a ;
+    }
+      
+
+        .sobretitulo
+        {
+            font-size: 35px;
+            position: relative;
+            top: 50px;
+            text-align: center;
+            font-weight: normal;
+            font-family: 'Montserrat', sans-serif;
+            color:#599e46;
+            display: block;
+        }
+
+        .textosobre
+
+        {
+            font-size: 15.5px;
+            text-align:justify ;
+            position: relative;
+            top: 70px;
+            margin: 20px;
+            
+        }
+
+        #rodape 
+        {
+            position: relative;
+            top: 100%;
+            max-height: auto;
+        }
+
+        .titulotemas
+        {
+            position: relative;
+            top: 80px;
+            left: 37%;
+            font-size: 35px;
+            color:#599e46;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        /*configurações dos posts*/
+        .posts
+        {
+            width: 100vw;
+            max-height:auto ;
+            position:relative;
+            top: 200px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill,minmax(290px,1fr));
+            gap: 10px; /*espaçamento entre linhas e colunas */
+            background-color: #f6f4ef;
+            border-bottom:2px solid #50d93a;
+           
+        
+        }
+        .post
+        {
+            max-width: 18rem;
+            height: 17rem;
+            position:relative;
+            left: 15%;
+            align-items: flex-start;
+           
+           
+        }
+
+
+
+    
+
+}
+
+@media (max-device-width:900px) and (max-device-height:1024px) and (min-device-width:501px)
 {
     html 
     {
@@ -683,7 +907,7 @@ html
         top: 40%;
         width: 50%;
         height: 250px;
-        left: 90px;
+        left: 25%;
     }
     .ebook 
     {
@@ -722,7 +946,7 @@ html
         width: 13rem;
         height: 2rem;
         position: relative;
-        left:33%;
+        left:35%;
         top: 55%;
         text-align: center;
         border-radius: 50px;
@@ -777,7 +1001,7 @@ html
         {
             position: relative;
             top: 80px;
-            left: 37%;
+            left: 48%;
             font-size: 35px;
             color:#599e46;
             font-family: 'Montserrat', sans-serif;
@@ -881,9 +1105,9 @@ html
     #menu ul
     {
         position: relative;
-        top: 40%;
+        
         width: 50%;
-        left: 90px;
+        left: 25%;
     }
 
     .ebook 
@@ -986,7 +1210,7 @@ html
         .post
         {
             position:relative;
-            left: 20%;
+            left: 5%;
         }
 
 
