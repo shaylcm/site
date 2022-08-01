@@ -506,13 +506,14 @@ html
     .textoebook
 
     {
-        width: 100vw;
+        width: 90vw;
         font-size:15px;
     
         position: relative;
         top: 23%;
+        right: 10%;
         text-align: justify;
-        margin: 0px;
+       
     }
 
     .botaoebook
@@ -728,13 +729,14 @@ html
     .textoebook
 
     {
-        width: 100vw;
+        width: 90vw;
         font-size:15px;
     
         position: relative;
         top: 23%;
+        right: 7%;
         text-align: justify;
-        margin: 0px;
+      
     }
 
     .botaoebook
@@ -932,11 +934,12 @@ html
     .textoebook
 
     {
-        width: 100vw;
-        font-size:18px;
+        width: 90vw;
+        font-size:16px;
     
         position: relative;
         top: 200px;
+        left: 5%;
         text-align: justify;
         margin: 0px;
     }
